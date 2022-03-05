@@ -18,7 +18,7 @@
 # Convert string to floating point
 # puts (num1.to_f + num2.to_f)
 
-# ------------------------------------------
+# -------------------------------------
 # MatLib Game
 
 # puts "Enter a color: "
@@ -32,4 +32,16 @@
 # puts (plural_noun + " are blue")
 # puts ("I love " + celebrity)
 
+# -------------------------------------
 # Arrays
+# friends = Array["Kevin", "Karen","Oscar"]
+# puts friends
+# # => Kevin Karen Oscar
+
+# puts friends[0, 2]
+# # => Kevin Karen
+
+# friends[0] = "Dwight"
+# puts friends[0]
+# # => Dwight Karen Oscar
+
