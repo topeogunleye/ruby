@@ -52,3 +52,12 @@ friends = Array.new
 friends[0] = "Micheal"
 friends[5] = "Holly"
 # => Micheal                      Holly 
+
+# -------------------------------------
+# Array Methods
+# puts friends.include? "Karen"
+# # => false
+
+puts friends.reverse()
+# => Holly                        Micheal
+
