@@ -45,3 +45,10 @@
 # puts friends[0]
 # # => Dwight Karen Oscar
 
+# -------------------------------------
+# Create empty array
+friends = Array.new
+
+friends[0] = "Micheal"
+friends[5] = "Holly"
+# => Micheal                      Holly 
