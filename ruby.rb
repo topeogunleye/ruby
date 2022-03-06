@@ -47,17 +47,34 @@
 
 # -------------------------------------
 # Create empty array
-friends = Array.new
+# friends = Array.new
 
-friends[0] = "Micheal"
-friends[5] = "Holly"
+# friends[0] = "Micheal"
+# friends[5] = "Holly"
 # => Micheal                      Holly 
 
 # -------------------------------------
 # Array Methods
+
+friends = Array["Kevin", "Karen", "Oscar","Andy"]
+
+# include
 # puts friends.include? "Karen"
 # # => false
 
-puts friends.reverse()
+# reverse
+# puts friends.reverse()
 # => Holly                        Micheal
 
+# sort
+# puts friends.sort()
+
+# -------------------------------------
+# Hashes Data Structure
+states = {
+  1 => "PA",
+  "New York" => "NY",
+  "Oregon" => "OR",
+}
+
+puts states[1]
