@@ -82,8 +82,19 @@ states = {
 # -------------------------------------
 # Methods
 
-def sayhi(name, age)
-  puts ("Hello #{name}, you are #{age}")
+# def sayhi(name, age)
+#   puts ("Hello #{name}, you are #{age}")
+# end
+
+# sayhi('Mike', 74)
+
+# -------------------------------------
+# Return Types
+
+def cube(num)
+  return num * num * num, 70
+  puts "hello"
+  5
 end
 
-sayhi('Mike', 74)
+puts cube(3)[1]
