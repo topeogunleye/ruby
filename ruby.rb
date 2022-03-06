@@ -77,4 +77,13 @@ states = {
   "Oregon" => "OR",
 }
 
-puts states[1]
+# puts states[1]
+
+# -------------------------------------
+# Methods
+
+def sayhi(name, age)
+  puts ("Hello #{name}, you are #{age}")
+end
+
+sayhi('Mike', 74)
