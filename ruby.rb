@@ -91,10 +91,36 @@ states = {
 # -------------------------------------
 # Return Types
 
-def cube(num)
-  return num * num * num, 70
-  puts "hello"
-  5
+# def cube(num)
+#   return num * num * num, 70
+#   puts "hello"
+#   5
+# end
+
+# puts cube(3)[1]
+
+# -------------------------------------
+# Writing Classes
+# class Person
+#   def initialize(name)
+
+#   end
+# end
+
+# Person.new("Ada")
+
+# -------------------------------------
+# Classes vs Objects
+
+# Class definition
+class Animal
+  @id = Random.rand(1..1000)
+  @name = "Rex"
+  @number_of_legs = 4
 end
 
-puts cube(3)[1]
+animal_1 = Animal.new
+animal_2 = Animal.new
+
+animal_1
+animal_2
