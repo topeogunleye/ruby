@@ -1,4 +1,6 @@
 require "./animal.rb"
+require "./dog.rb"
+require "./spider.rb"
 
 # Encapsulation
 animal_1 = Animal.new("dog", 4, "Rex")
