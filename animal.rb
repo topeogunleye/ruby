@@ -41,16 +41,4 @@ class Animal
       puts "..."
     end
   end
-
-  def bring_a_stick
-    if @type == "dog"
-      puts "Here is your stick: ---------"
-    end
-  end
-
-  def make_a_web
-    if @type == "spider"
-      puts "www"
-    end
-  end
 end
