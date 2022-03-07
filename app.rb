@@ -22,11 +22,20 @@ animal_1.speak()
 animal_2.speak()
 
 # Testing bring_a_stick and make_a_web method
-animal_dog = Animal.new("dog", 4, "Rex")
-animal_spider = Animal.new("spider", 8, "Wilma")
+dog = Dog.new("black", "Rex")
+spider = Spider.new(85, "Wilma")
 
-animal_dog.bring_a_stick()
-animal_spider.bring_a_stick()
+dog.bring_a_stick()
+# spider.bring_a_stick()
 
-animal_dog.make_a_web()
-animal_spider.make_a_web()
+# dog.make_a_web()
+spider.make_a_web()
+
+# Test speak method for animals
+animal = Animal.new("lion", 4, "Rex")
+dog = Dog.new("black", "Rex")
+spider = Spider.new(85, "Wilma")
+
+animal.speak()
+dog.speak()
+spider.speak()
