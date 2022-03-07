@@ -18,3 +18,13 @@ animal_2 = Animal.new("spider", 8, "Wilma")
 
 animal_1.speak()
 animal_2.speak()
+
+# Testing bring_a_stick and make_a_web method
+animal_dog = Animal.new("dog", 4, "Rex")
+animal_spider = Animal.new("spider", 8, "Wilma")
+
+animal_dog.bring_a_stick()
+animal_spider.bring_a_stick()
+
+animal_dog.make_a_web()
+animal_spider.make_a_web()
