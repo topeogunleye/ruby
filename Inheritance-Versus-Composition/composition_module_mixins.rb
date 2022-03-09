@@ -1,3 +1,4 @@
+# composition using modules and a concept called mixins
 module Other
 
   def override()

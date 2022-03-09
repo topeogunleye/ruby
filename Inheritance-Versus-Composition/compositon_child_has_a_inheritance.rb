@@ -1,3 +1,4 @@
+# composition using has-a relationship, where Child has-a Other
 class Other
 
   def override()
