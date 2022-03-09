@@ -14,3 +14,6 @@ class Dog < Animal
     "Woof, woof"
   end
 end
+
+dog = Dog.new("brown")
+puts dog.remove_leg
