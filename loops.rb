@@ -6,12 +6,17 @@
 # end
 
 # for loops
-friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+# friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
 # for friend in friends
 #   puts "Hello, #{friend}!"
 # end
 
 # each loops
-friends.each { |friend| puts "Hello, #{friend}!"}
+# friends.each { |friend| puts "Hello, #{friend}!"}
+
+# for in
+for index in 0..5
+  puts index
+end
 
