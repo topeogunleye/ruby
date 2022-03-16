@@ -8,7 +8,10 @@
 # for loops
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
 
-for friend in friends
-  puts "Hello, #{friend}!"
-end
+# for friend in friends
+#   puts "Hello, #{friend}!"
+# end
+
+# each loops
+friends.each { |friend| puts "Hello, #{friend}!"}
 
