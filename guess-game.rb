@@ -15,7 +15,7 @@ while guess != secret_word && !out_of_guesses
   end
 end
 
-if out_of_guesses && guess != secret_word
+if out_of_guesses
   puts "You lose!"
 else
   puts "You win!"
