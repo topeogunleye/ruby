@@ -15,8 +15,10 @@
 # each loops
 # friends.each { |friend| puts "Hello, #{friend}!"}
 
-# for in
+# for in loops
 for index in 0..5
   puts index
 end
+
+
 
