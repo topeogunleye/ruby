@@ -16,3 +16,8 @@
 File.open("employees.txt", "a") do |file|
   file.write("\nOscar, Accounting")
 end
+
+# Writing to a file -- overwrite
+File.open("employees.txt", "w") do |file|
+  file.write("\nOscar, Accounting")
+end
