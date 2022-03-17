@@ -26,3 +26,9 @@ end
 File.open("index.html", "w") do |file|
   file.write("<h1>Hello World</h1>")
 end
+
+# read and write
+File.open("employees.txt", "r+") do |file|
+  file.readline()
+  file.write("Hi")
+end
