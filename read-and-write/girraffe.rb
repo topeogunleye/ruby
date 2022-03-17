@@ -21,3 +21,8 @@ end
 File.open("employees.txt", "w") do |file|
   file.write("\nOscar, Accounting")
 end
+
+# Writing to a file -- create
+File.open("index.html", "w") do |file|
+  file.write("<h1>Hello World</h1>")
+end
