@@ -18,9 +18,9 @@ File.open("employees.txt", "a") do |file|
 end
 
 # Writing to a file -- overwrite
-File.open("employees.txt", "w") do |file|
-  file.write("\nOscar, Accounting")
-end
+# File.open("employees.txt", "w") do |file|
+#   file.write("\nOscar, Accounting")
+# end
 
 # Writing to a file -- create
 File.open("index.html", "w") do |file|
