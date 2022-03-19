@@ -6,3 +6,8 @@ class Book
     @pages = pages
   end
 end
+
+book = Book.new("Harry Potter", "JK Rowling", 400)
+puts book.title
+puts book.author
+puts book.pages
