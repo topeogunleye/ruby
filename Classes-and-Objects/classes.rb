@@ -51,5 +51,3 @@ puts book.pages
 # puts book.author
 # puts book.pages
 
-
-
