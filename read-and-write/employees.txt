@@ -4,4 +4,3 @@ Kelly, Customer Service
 Creed, Quality Assurance
 Micheal, Manager
 Oscar, Accounting
-Oscar, Accounting
