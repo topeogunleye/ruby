@@ -38,7 +38,10 @@ git clone https://github.com/topeogunleye/ruby.git
 
    ```sh
    ruby person.rb
+   
+## Run Tests
 run `rspec .` on the terminal
+
 ## Authors
 
 👤 **Temitope Ogunleye**
