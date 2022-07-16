@@ -42,7 +42,7 @@ git clone https://github.com/topeogunleye/ruby.git
 ## Run Tests
 run `rspec .` on the terminal
 
-## Authors
+## Author
 
 👤 **Temitope Ogunleye**
 
