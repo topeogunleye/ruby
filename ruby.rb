@@ -213,3 +213,4 @@ elsif  !ismale && istall
 else
   puts 'You are not male and not tall'
 end
+
