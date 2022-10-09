@@ -48,7 +48,7 @@ run `rspec .` on the terminal
 
 - GitHub: [@tope_leye](https://github.com/topeogunleye)
 - Twitter: [@tope_leye](https://twitter.com/tope_leye)
-- LinkedIn: [ogunleye](https://linkedin.com/in/ogunleye)
+- LinkedIn: [ogunleye](https://linkedin.com/in/ogunleye) 
 
 ## 🤝 Contributing
 
